@@ -1,0 +1,11 @@
+mi-tienda-online/
+├── index.html          # Página principal
+├── productos.html     # Lista de productos
+├── carrito.html       # Carrito de compras
+├── css/
+│   ├── styles.css     # Estilos principales
+│   └── responsive.css # Media queries
+├── js/
+│   ├── main.js        # Funcionalidad principal
+│   └── carrito.js     # Lógica del carrito
+└── img/               # Imágenes de productos
