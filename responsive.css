@@ -1,0 +1,45 @@
+/* Tablet */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    nav ul {
+        justify-content: center;
+    }
+    
+    .contenedor-carrito {
+        grid-template-columns: 1fr;
+    }
+    
+    .item-carrito {
+        flex-direction: column;
+    }
+    
+    .item-carrito img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    nav a {
+        margin-left: 0;
+    }
+    
+    .filtros {
+        flex-direction: column;
+    }
+    
+    .grid-productos {
+        grid-template-columns: 1fr;
+    }
+}
